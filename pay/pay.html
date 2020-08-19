@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/css/public.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/css/head_foot.css" />
+		<link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="pay.css" />
+		<title>收银台</title>
+	</head>
+	<body>
+		<div class="pay-content w">
+			<div class="pay-head">
+				<a href="../index/index.html">
+					<img src="../img/logo.png" />
+				</a>
+				<span>收银台</span>
+			</div>
+			<div class="pay-account">
+				<div class="img-con">
+					<img src="../img/pay/success_icon.png">
+				</div>
+				<div class="pay-text">
+					<h2>订单提交成功，只差付款了~</h2>
+					<p class="time">请您在 <span><em class="min"></em>分<em class="sec"></em>秒</span>
+						内完成支付，否则本次支付将自动取消。
+					</p>
+					<p class="tip">订单含付款库存商品，请尽快完成付款，库存不足时系统会自动取消未支付，（含正在支付进行中）的订单</p>
+				</div>
+				<div class="account">
+					<span class="account-text">订单金额：</span>
+					<span class="account-num"></span>
+				</div>
+			</div>
+			<div class="pay-choice">
+				<ul class="pay-tab">
+					<li class="active">常用</li>
+					<li>平台支付</li>
+					<li>分期支付</li>
+					<li>网银支付</li>
+				</ul>
+				<div class="pay-con">
+					<ul class="con clearfix">
+						<li class="active">
+							<ul class="pay-changyong ">
+								<li class="choose">
+									<img src="../img/pay/ALIPAY.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/WXPAY.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/HUABEI.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/UNIONPAY.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/CMBLIFE.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="pay-pingtai">
+								<li class="choose">
+									<img src="../img/pay/ALIPAY.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/WXPAY.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/HUAWEIPAY.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/UNIONPAY.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="pay-fenqi">
+								<li class="choose">
+									<img src="../img/pay/CMBLIFE.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/HUABEI.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/ICBC.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/CCB.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+							</ul>
+
+						</li>
+						<li>
+							<ul class="pay-wangyin">
+								<li class="choose">
+									<img src="../img/pay/CMB.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/ICBC.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/CCB.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/BCM.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/ABC.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/BOC.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+								<li>
+									<img src="../img/pay/CIB.png" />
+									<span><i class="iconfont icon-duihoa"></i></span>
+								</li>
+							</ul>
+
+						</li>
+					</ul>
+					
+
+				</div>
+			</div>
+			<input type="button" value="确认支付" class="pay-confirm" />
+		</div>
+		
+		<div class="pay-code">
+			<div class="img-con">
+				<img src="../img/pay-code.png" />
+				<div class=" ">
+					<span class="money">支付金额：<em></em></span>
+					<input type="button" value="已支付~" class="pay-complete" />
+				</div>
+				<div class="close">
+					<i class="iconfont icon-close"></i>
+				</div>
+			</div>
+			
+		</div>
+		<script src="../assets/js/public.js"></script>
+		<script src="pay.js"></script>
+	</body>
+</html>

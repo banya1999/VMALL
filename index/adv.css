@@ -1,0 +1,71 @@
+/* 滚动的广告部分 */
+.active-adv{
+	height: 120px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.active-adv>.banner2{
+	height: 100%;
+	position: relative;
+}
+.active-adv>.banner2>ul.banner2-slider{
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	font-size: 0;
+	white-space: nowrap;
+	transition: all 1s ease-out;
+	transform: translateX(-100%);
+}
+.active-adv>.banner2>ul.banner2-slider>li{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.active-adv>.banner2>ul.banner2-slider>li>a{
+	display: block;
+	height: 100%;
+}
+.active-adv>.banner2>ul.banner2-slider>li>a>img{
+	width: 100%;
+	height: 100%;
+}
+
+.active-adv>.banner2>ul.banner2-indicator{
+	position: absolute;
+	right: 20px;
+	/* transform: translateX(-50%); */
+	bottom: 10px;
+}
+.active-adv>.banner2>ul.banner2-indicator>li{
+	float: left;
+	width: 10px;
+	height: 5px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 4px;
+	overflow: hidden;
+	margin: 0 5px;
+}
+.active-adv>.banner2>ul.banner2-indicator>li::before{
+	content: "";
+	float: right;
+	width: 0;
+	height: 100%;
+	transition: all 1s ease-out;
+	background-color: #fff;
+}
+.active-adv>.banner2>ul.banner2-indicator>li.active::before{
+	width: 100%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+

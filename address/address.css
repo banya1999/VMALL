@@ -1,0 +1,246 @@
+.header{
+	/* border-bottom: 1px solid red; */
+	background-color: #fff;
+	box-shadow: 0 5px 5px 0 #ececec;
+}
+.footer{
+	border-top: 1px solid red;
+}
+body{
+	background-color: #fff;
+}
+/* 内容部分 */
+/*  */
+.address-wrapper{
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+/* 小导航 */
+.address-nav{
+	height: 30px;
+	line-height: 30px;
+}
+.address-nav>a{
+	color: #666666;
+	font-size: 12px;
+}
+.address-nav>i{
+	font-size: 12px;
+	color: #BBBBBB;
+	padding: 0 10px;
+}
+/* 左侧的小菜单 */
+.address-menu{
+	box-sizing: border-box;
+	border-radius: 10px;
+	/* border: 1px solid #CCCCCC; */
+	box-shadow: 0 0px 10px 0 #ccc;
+	float: left;
+	width: 176px;
+	margin-top: 15px;
+	margin-right: 80px;
+}
+.address-menu>h2{
+	font-size: 18px;
+	font-weight: 400;
+	color: #cf0a2c;
+	line-height: 60px;
+	border-bottom: 1px solid #e6e6e6;
+	text-indent: 2em;
+}
+.address-menu>ul{
+	line-height: 34px;
+}
+.address-menu>ul>li>a{
+	font-size: 14px;
+	color: #777;
+	padding-left: 38px;
+}
+.address-menu>ul>li>a:hover{
+	color: #C8141D;
+}
+.address-content{
+	/* margin-top: 20px; */
+	margin-left: 250px;
+}
+.address-content>h1{
+	font-size: 24px;
+	color: #3A3A3A;
+	font-weight: 400;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 60px;
+}
+.address>ul.address-list{
+	border-bottom: 1px solid #E8E8E8;
+}
+
+
+
+
+/* ========== */
+.address-empty, .address-list{
+	display: none;
+}
+.address-empty.show, .address-list.show{
+	display: block;
+}
+.address-empty{
+	/* display: block; */
+	height: 230px;
+	border-bottom: 1px solid #e2e2e2;
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 230px;
+	font-size: 25px;
+	color: #CCCCCC;
+}
+
+
+
+.address-list>li{
+	display: inline-block;
+	height: 100px;
+	width: 25%;
+	margin: 20px;
+	padding: 10px;
+	border-top: 5px dashed #9ceaea;
+	border-bottom: 5px dashed #eeee76;
+	border-left: 5px dashed #9eea74;
+	border-right: 5px dashed #ef9fef;
+	/* border-color: #e2e2e2; */
+	transition: all 0.4s;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.address-list>li:hover{
+	cursor: default;
+	border-top: 5px dashed #ffaaff;
+	border-bottom: 5px dashed #aaffff;
+	border-left: 5px dashed #ffff7f;
+	border-right: 5px dashed #aaff7f;
+}
+.address-list>li>h3{
+	font-size: 14px;
+	color: #3A3A3A;
+	line-height: 30px;
+}
+.address-list>li>p.phoneNum{
+	font-size: 14px;
+	color: #3A3A3A;
+	line-height: 20px;
+}
+.address-list>li>p.address{
+	font-size: 12px;
+	color: #9a9a9a;
+	line-height: 20px;
+}
+.address-list>li>.btn-wrapper{
+	height: 25px;
+	padding: 0 15px;
+	text-align: right;
+	display: none;
+	transition: all 0.4s;
+}
+.address-list>li>.btn-wrapper>i{
+	font-size: 14px;
+	color: #fc1824;
+	cursor: pointer;
+}
+.address-list>li>.btn-wrapper>i>input{
+	height: 25px;
+	width: 30px;
+	margin-right: 10px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	color: #818181;
+	text-align: left;
+	cursor: pointer;
+}
+.address-list>li:hover>.btn-wrapper{
+	display: block;
+}
+
+
+a.btn-default{}
+a.btn-default::before{
+	content: "设为默认地址";
+	color: #ffffff;
+	background-color: #d8d8d8;
+	padding: 2px 10px;
+}
+a.btn-default.default::before{
+	content: "默认地址";
+	background-color: #ff557f;
+	padding: 2px 10px;
+}
+
+/* 新增收货地址按钮 */
+
+ul.address-list>li>input.btn-add{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 14px;
+	color: #666;
+}
+
+/* 编辑信息 */
+.form-item-wrapper{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #333333;
+	/* border: 1px solid black; */
+}
+
+.form-item-wrapper>label{
+	display: inline-block;
+	width: 85px;
+	text-align: right;
+	/* background-color: red; */
+}
+.form-item-wrapper>label>em{
+	font-size: 12px;
+	color: #f41823;
+	padding: 2px;
+}
+.form-item-wrapper>input{
+	height: 30px;
+	width: 200px;
+	padding: 2px 10px;
+	outline: none;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.form-item-wrapper>input.btn-save{
+	height: 50px;
+	margin-left: 100px;
+	background-color: #C8141D;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+.form-item-wrapper>input.address-detail{
+	width: 400px;
+}
+.form-item-wrapper>select{
+	height: 35px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	transition: all 0.4s;
+}
+
+
+
+
+
+

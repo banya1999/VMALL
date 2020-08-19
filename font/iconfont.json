@@ -1,0 +1,163 @@
+{
+  "id": "1974799",
+  "name": "vmall",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7738003",
+      "name": "订单",
+      "font_class": "orderList",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8765152",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "11177800",
+      "name": "对号",
+      "font_class": "duihoa",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "9743024",
+      "name": "排序",
+      "font_class": "paixu-shang",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "824975",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3092318",
+      "name": "删除",
+      "font_class": "delete",
+      "unicode": "e78d",
+      "unicode_decimal": 59277
+    },
+    {
+      "icon_id": "9974797",
+      "name": "排序-右",
+      "font_class": "sort",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "4460206",
+      "name": "火箭",
+      "font_class": "huojian",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "576404",
+      "name": "加号",
+      "font_class": "plus",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "609890",
+      "name": "对号",
+      "font_class": "checkmark",
+      "unicode": "e770",
+      "unicode_decimal": 59248
+    },
+    {
+      "icon_id": "632987",
+      "name": "减号",
+      "font_class": "jian",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "12961553",
+      "name": "问号",
+      "font_class": "icon-wenhao",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "4867111",
+      "name": "邮箱",
+      "font_class": "mail",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "7570901",
+      "name": "手机",
+      "font_class": "phone",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "8361844",
+      "name": "眼睛3",
+      "font_class": "eyeOpen",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "8361861",
+      "name": "眼睛4",
+      "font_class": "eyeClose",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "4948953",
+      "name": "放大镜",
+      "font_class": "search",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "8875500",
+      "name": "购物车",
+      "font_class": "shopCar",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "16222729",
+      "name": "箭头",
+      "font_class": "arrow-right-copy",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "16222740",
+      "name": "箭头",
+      "font_class": "arrow-up-copy",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "16222748",
+      "name": "箭头",
+      "font_class": "arrow-left-copy",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "16222773",
+      "name": "箭头",
+      "font_class": "arrow-down-copy",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}

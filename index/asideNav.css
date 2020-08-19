@@ -1,0 +1,55 @@
+
+ul.part-nav {
+	width: 100px;
+	position: fixed;
+	bottom: 5%;
+	right: 0;
+	/* transform: translateY(-50%); */
+	border-radius: 10px;
+	box-shadow: 0 0 30px 0px rgba(0,0,0,0.1);
+	z-index: 11;
+}
+
+ul.part-nav>li {
+	height: 50px;
+	line-height: 50px;
+	color: #838383;
+	text-align: center;
+	cursor: pointer;
+}
+ul.part-nav>li:hover{
+	font-size: 14px;
+	font-weight: bolder;
+	color: #dd0003;
+}
+ul.part-nav>li.active {
+	font-size: 14px;
+	font-weight: bolder;
+	color: #dd0003;
+	/* text-shadow: 0 0 10px brown; */
+}
+
+/* 回到顶部 */
+ul.goTop{
+	width: 100px;
+	position: fixed;
+	bottom: 50%;
+	right: 0;
+	/* transform: translateY(-50%); */
+	border-radius: 10px;
+	/* box-shadow: 0 0 30px 0px rgba(0,0,0,0.1); */
+	z-index: 9999;
+	transition: all 1s;
+}
+ul.goTop>li {
+	height: 50px;
+	line-height: 50px;
+	color: #c5c5c5;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+ul.goTop>li>i{
+	display: block;
+	font-size: 50px;
+}

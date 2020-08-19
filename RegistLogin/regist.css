@@ -1,0 +1,138 @@
+.header-bar{
+	height: 48px;
+	background-color: #f2f2f2;
+}
+.header-content-logo{
+	float: left;
+	height: 48px;
+}
+.header-content-logo>img{
+	margin-top: 10px;
+}
+.header-content>h2{
+	display: inline-block;
+	font-size: 16px;
+	color: #191919;
+	line-height: 48px;
+}
+.header-content>h2::before{
+	content: "|";
+	padding: 0 15px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #d5d5d5;
+	height: 25px;
+}
+
+.regist-menu{
+	float: left;
+	width: 272px;
+	margin-top: 40px;
+}
+.regist-menu>a{
+	display: block;
+	/* height: 50px; */
+	padding: 18px 0;
+	margin: 10px 0;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #191919;
+}
+.regist-menu>a.active{
+	background-color: #f3f3f3;
+}
+.regist-menu>a:hover{
+	background-color: #d2ffff;
+}
+
+.regist-content{
+	width: 588px;
+	margin-left: 272px;
+	margin-bottom: 155px;
+	padding: 60px;
+	text-align: center;
+}
+.regist-content>h1{
+	padding: 15px;
+	font-size: 32px;
+	font-weight: 400;
+	color: #191919;
+}
+.regist-content>p{
+	font-size: 18px;
+	color: #191919;
+}
+.regist-content>p>a{
+	color: #00a7ee;
+}
+.regist-content>form{
+	margin-top: 60px;
+}
+.regist-content>form>.input-wrapper{
+	height: 50px;
+	width: 442px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	border: 1px solid #f0f0f0;
+	padding: 0 15px;
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: 14px;
+	text-align: left;
+}
+.regist-content>form>.input-wrapper>a{
+	color: #00A7EE;
+}
+.regist-content>form>.input-wrapper>i{
+	float: right;
+	line-height: 50px;
+}
+.regist-content>form>.input-wrapper>input[type=text],
+.regist-content>form>.input-wrapper>input[type=password]{
+	height: 50px;
+	width: 80%;
+	border: none;
+	outline: none;
+}
+.regist-content>form>.btn-regist{
+	width: 300px;
+	border: none;
+	transform: translateX(60px);
+}
+.regist-content>form>.input-wrapper>input[type=button]{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	background-color: #8eb8e5;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+}
+.ft{
+	/* position: absolute;
+	bottom: 0; */
+	height: 110px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.ft>p.info{
+	padding-top: 35px;
+	font-size: 14px;
+}
+.ft>p.info>a{
+	color: #000000;
+}
+.ft>p.info>a+a::before{
+	content: "| ";
+	font-size: 12px;
+	padding: 0 10px;
+}
+.ft>p.copyright{
+	font-size: 14px;
+	color: #b3b3b3;
+	padding-top: 20px;
+}
